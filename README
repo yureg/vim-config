@@ -1,0 +1,1 @@
+Чтобы заменить gedit на gvim необходимо поместить в папку "~/.local/share/applications" файлы из папки "app"
