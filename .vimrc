@@ -213,9 +213,6 @@ map gb :bd<cr>
 " PyDoc
 map gh <Leader>pW
 
-" Выход из Vim 
-map <F10> <esc>:qa<cr>
-
 " }}}
 
 " Автоматизация {{{
