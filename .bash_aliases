@@ -1,0 +1,8 @@
+alias gd="git diff"
+alias ga="git add ."
+alias gc="git commit -v"
+alias gl="git pull"
+alias gp="git push"
+alias gb="git branch"
+alias gba="git branch -a"
+alias gst="git status"
