@@ -172,8 +172,11 @@ set guioptions-=c
 set guioptions-=m
 
 " Размеры окна при открытии
-set lines=50
-set columns=80
+set lines=60
+set columns=100
+
+" Перенос строк
+set nowrap
 
 " }}}
 
