@@ -121,6 +121,15 @@ autocmd FileType c set omnifunc=ccomplete#Complete
 
 " }}}
 
+" * Настройки MiniBufExplorer {{{
+
+"let g:miniBufExplMapWindowNavVim = 1
+let g:miniBufExplMapWindowNavArrows = 1
+let g:miniBufExplMapCTabSwitchBufs = 1
+"let g:miniBufExplModSelTarget = 1 
+
+" }}}
+
 " }}}
 
 " Внешний вид {{{
@@ -199,16 +208,16 @@ vmap <C-Q> <esc>:NERDTreeToggle<cr>i
 imap <C-Q> <esc>:NERDTreeToggle<cr>i
 
 " Переключится между окнами.
-noremap <C-tab> <C-W><C-W>
+"noremap <C-tab> <C-W><C-W>
 
 " Новый таб
-map gn :tabnew<cr>
+"map gn :tabnew<cr>
 
 " Закрыть таб
-map gc :tabclose<cr>
+"map gc :tabclose<cr>
 
 " Удалить буфер
-map gb :bd<cr>
+map bd :bd<cr>
 
 " PyDoc
 map gh <Leader>pW
