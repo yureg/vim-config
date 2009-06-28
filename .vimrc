@@ -199,25 +199,18 @@ nmap <C-L> 5l
 
 " Сохранить файл
 nmap <C-S> :w<cr>
-vmap <C-S> <esc>:w<cr>i
+vmap <C-S> <esc>:w<cr>v
 imap <C-S> <esc>:w<cr>i
 
-" Открыть новый таб и NERDTree
+" Открыть NERDTree
 map  <C-Q> :NERDTreeToggle<cr>
-vmap <C-Q> <esc>:NERDTreeToggle<cr>i
+vmap <C-Q> <esc>:NERDTreeToggle<cr>v
 imap <C-Q> <esc>:NERDTreeToggle<cr>i
 
-" Переключится между окнами.
-"noremap <C-tab> <C-W><C-W>
-
-" Новый таб
-"map gn :tabnew<cr>
-
-" Закрыть таб
-"map gc :tabclose<cr>
-
-" Удалить буфер
-map bd :bd<cr>
+" Закрыть буфер
+nmap <C-`> :bd<cr>
+vmap <C-`> <esc>:bd<cr>v
+imap <C-`> <esc>:bd<cr>i
 
 " PyDoc
 map gh <Leader>pW
