@@ -198,19 +198,16 @@ nmap <C-K> 5k
 nmap <C-L> 5l
 
 " Сохранить файл
-nmap <C-S> :w<cr>
-vmap <C-S> <esc>:w<cr>v
-imap <C-S> <esc>:w<cr>i
+nmap <S-S> :w<cr>
+vmap <S-S> <esc>:w<cr>v
 
 " Открыть NERDTree
-map  <C-Q> :NERDTreeToggle<cr>
-vmap <C-Q> <esc>:NERDTreeToggle<cr>v
-imap <C-Q> <esc>:NERDTreeToggle<cr>i
+map  <S-Q> :NERDTreeToggle<cr>
+vmap <S-Q> <esc>:NERDTreeToggle<cr>v
 
 " Закрыть буфер
-nmap <C-`> :bd<cr>
-vmap <C-`> <esc>:bd<cr>v
-imap <C-`> <esc>:bd<cr>i
+nmap <S-Z> :bd<cr>
+vmap <S-Z> <esc>:bd<cr>v
 
 " PyDoc
 map gh <Leader>pW
